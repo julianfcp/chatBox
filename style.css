@@ -1,0 +1,31 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.messageBox {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.inputResponse {
+  display: 'flex';
+  justify-content: 'space-between';
+}
+
+.userInput {
+  flex-basis: '50%';
+  flex-grow: 1;
+}
+
+.cajaResponse {
+  flex-basis: '50%';
+  flex-grow: 1;
+}
+
+.response {
+  text-align: right;
+}
